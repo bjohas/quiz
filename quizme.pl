@@ -35,7 +35,7 @@ GetOptions (
 use HTML::Entities;
 use Term::ANSIColor;
 
-chdir("quizme");
+chdir("db_quizme");
 
 if ($category < 9 || $category == 30 || $category > 32)  {
     say "
